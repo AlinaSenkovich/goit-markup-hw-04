@@ -87,6 +87,19 @@ margin-left: auto;
 .header-contacts:hover, .header-contacts:focus {
     color: var(--accent-color);
 }
+.contact-icon {
+    margin-right: 10px;
+    fill: currentColor;
+    vertical-align: middle;
+}
+.icon-mail {
+    width: 16px;
+    height: 12px;
+}
+.icon-phone {
+    width: 10px;
+    height: 16px;
+}
 .menu-link {
     font-weight: 500;
     font-size: 14px;
@@ -213,6 +226,20 @@ margin-right: 30px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
+}
+.about-icons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 244, 250, 1);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+}
+.about-icon {
+    width: 70px;
+    height: 70px;
 }
 /* occupation*/
 .occupation-conteiner {
@@ -379,6 +406,13 @@ margin-right: 8px;
     margin-bottom: 30px;
     box-sizing: border-box;
 }
+.portfolio-content-item:hover,
+.portfolio-content-item:focus {
+    /*background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;*/
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-text {
     padding-top: 20px;
     padding-left: 24px;
@@ -409,7 +443,7 @@ margin-right: 0;
 /*footer*/
 .footer-conteiner {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 .footer {
     background-color: #2F303A;
