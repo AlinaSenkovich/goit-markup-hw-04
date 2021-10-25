@@ -374,6 +374,7 @@ margin-right: 30px;
     border-radius: 4px;
 }
 .clients-icon {
+    height: 92px;
     fill: currentColor;
 }
 .clients-link:hover,
