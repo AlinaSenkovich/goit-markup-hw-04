@@ -270,12 +270,13 @@ margin-right: 30px;
 /*team*/
 .team-conteiner {
     display: flex;
+    text-align: center;
+    justify-content: center;
 }
 .team {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: #F5F4FA;
-    width: 1600px;
 }
 .team-list {
     display: flex;
@@ -378,7 +379,6 @@ margin-right: 30px;
     border-radius: 4px;
 }
 .clients-icon {
-    height: 92px;
     fill: currentColor;
 }
 .clients-link:hover,
@@ -458,9 +458,7 @@ margin-right: 0;
 .footer {
     background-color: #2F303A;
     padding-bottom: 60px;
-    max-width: 1600px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-top: 60px;
 }
 .address-footer-list {
     width: 231px;
@@ -508,11 +506,9 @@ margin-top: 20px;
     margin-bottom: 20px;
 }
 .footer-right {
-    padding-top: 72px;
     width: 206px;
 }
 .footer-left {
-    padding-top: 60px;
     margin-right: 70px;
 }
 .footer-list {
