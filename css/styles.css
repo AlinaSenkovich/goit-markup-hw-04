@@ -432,7 +432,7 @@ margin-right: 8px;
 .portfolio-content-item:nth-child(3n) {
 margin-right: 0;
 }
-.portfolio-content-item:nth-child(n + 6) {
+.portfolio-content-item:nth-child(n + 7) {
     margin-bottom: 0;
 }
 .title-portfolio {
