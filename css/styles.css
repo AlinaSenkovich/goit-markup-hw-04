@@ -246,9 +246,9 @@ margin-right: 30px;
     height: 70px;
 }
 /* occupation*/
-.occupation-conteiner {
+/*.occupation-conteiner {
     display: flex;
-}
+}*/
 .occupation {
     padding-bottom: 94px;
 }
@@ -268,11 +268,11 @@ margin-right: 30px;
     margin-bottom: 50px;
 }
 /*team*/
-.team-conteiner {
+/*.team-conteiner {
     display: flex;
     text-align: center;
     justify-content: center;
-}
+}*/
 .team {
     padding-top: 94px;
     padding-bottom: 94px;
